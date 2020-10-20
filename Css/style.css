@@ -37,6 +37,7 @@ body {
 /*----------------- BARRE DE NAVIGATION -----------------*/
 
 .navbar-table {
+	z-index: 1;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 500;
 	background-color: #30323D;
@@ -53,6 +54,7 @@ body {
 	height: 100px;
 	background: linear-gradient(rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.055));
 	overflow: auto;
+	z-index: 2;
   }
   
   /* Navbar links */
@@ -85,7 +87,41 @@ body {
 .active {
 	background-color: #D62839;
   }
-/*---------------------------------------------------*/
+/*------------------------------------------------------------TITRE--------------------------------------------------------------------*/
+.titre  { 
+			 
+			 position: relative;
+			 width: 100vw;
+			 height: 100vh;
+			}
+
+.titre h1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #FFFFFF;
+	font-family: 'Cormorant Garamond', sans-serif;
+	font-size: 60px;
+}
+.titre  h2 {
+	position: absolute;
+	top: 60%;
+	left:50%; 
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	font-style: italic;
+	font-size: 20px;	
+	text-align: center;
+ }		     
+h1 { 
+	z-index: 0;
+	}
+.presentation { 
+	position: relative;
+}
+
+/*---------------------------------------------------------------POP UP COVID----------------------------------------------------------*/
 
 /* Bouton Pop Up Style */
 
@@ -139,5 +175,3 @@ background:black;
 	position: absolute;
 	top:300px;
 }
-
-/* ------------------------------------------------*/
