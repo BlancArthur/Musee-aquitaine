@@ -23,9 +23,9 @@ body {
 	height:90px;
 }
 .container {
-	width: 100%
+	width: 100%;
 	height:70px;
-	background-color:#30323d;
+	background-color: #30323d;
 }
 ul {
 	padding:20; /*décalage vers la droite*/
