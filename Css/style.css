@@ -206,56 +206,128 @@ h1 {
 
 
 /* --------------------------------------------- EXPOSITION ----------------------------------------------- */
+.container-grid {
+	display:grid;
+	grid-template-columns: repeat(24, 40px);
+	grid-gap:10px;
 
-.CadreTitre h2 {		 
-	position: absolute;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	color: #FFFFFF;
+ }
+
+.cadretitre{
+	grid-column: 10/24;
 	font-family: 'Cormorant Garamond', sans-serif;
 	font-size: 35px;
+	color:white;
+} 
+
+.cadretitre2{
+	grid-column: 11/24;
+	font-family: 'Cormorant Garamond', sans-serif;
+	font-size: 25px;
+	color: white;
+
+
 }
 
-/* Infos ecriture, peut etre pas nécéssaire...*/
-
-.prehistoire {
-	color: #FFFFFF;
+.prehistoire{
+	grid-column: 13/24;
 	font-family: 'Cormorant Garamond', sans-serif;
-	font-size: 15px;
-	padding-top: 250px;
+	font-size: 20px;
+	color: white;
+
+
 }
 
-.lepoquegalloromaine {
-	color: #FFFFFF;
-	font-family: 'Cormorant Garamond', sans-serif;
-	font-size: 15px;
-	padding-top: 50px;
+
+.texte1{
+
+	grid-column: 10/20;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: white;
 }
 
-.periodemedievalemorderne {
-	color: #FFFFFF;
+
+.lepoquegalloromaine{
+	grid-column: 12/20;
 	font-family: 'Cormorant Garamond', sans-serif;
-	font-size: 15px;
-	padding-top: 50px;
+	font-size: 20px;
+	color:white;
+
 }
 
-.commerceatlantiqueetesclavage {
-	color: #FFFFFF;
-	font-family: 'Cormorant Garamond', sans-serif;
-	font-size: 15px;
-	padding-top: 50px;
+.texte2{
+	grid-column: 10/20;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: white;
+
+
+
 }
 
-.bordeauxportedumonde {
-	color: #FFFFFF;
+
+.periodemedievalemorderne{
+	grid-column: 12/20;
 	font-family: 'Cormorant Garamond', sans-serif;
-	font-size: 15px;
-	padding-top: 50px;
+	font-size: 20px;
+	color:white;		
 }
 
-.bordeauxdenosjours {
-	color: #FFFFFF;
+.texte3{
+	grid-column: 10/20;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: white;
+}
+
+
+.commerceatlantiqueetesclavage{
+	grid-column: 12/20;
 	font-family: 'Cormorant Garamond', sans-serif;
-	font-size: 15px;
-	padding-top: 50px;
+	font-size: 20px;
+	color:white;	
+}
+
+.texte4{
+
+	grid-column: 10/20;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: white;
+}
+
+.bordeauxportedumonde{
+	grid-column: 12/20;
+	font-family: 'Cormorant Garamond', sans-serif;
+	font-size: 20px;
+	color: white;
+
+}
+
+.texte5{
+
+	grid-column: 10/20;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: white;
+
+}
+
+.bordeauxdenosjours{
+
+	grid-column: 12/20;
+	font-family: 'Cormorant Garamond', sans-serif;
+	font-size: 20px;
+	color: white;
+
+}
+
+.texte6{
+	grid-column: 10/20;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: white;
+
+
 }
