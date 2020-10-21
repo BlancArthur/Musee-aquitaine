@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap%27');
+
+h1{
+	text-align: center;
+	font-family: 'Montserrat', cursive;
+}
+
+#soustitre {
+	text-align: center;
+	font-family: 'Montserrat', cursive;
+}
+
+.tarifs {
+	padding-top: 10px;
+	font-size: 10px;
+	font-family: 'Montserrat', cursive;
+	background-color: black;
+	color: white;
+	display: flex;
+	width: 50%;
+	margin: auto;
+	/*background-repeat: repeat-x;*/
+}
+
+#t {
+	margin-top: 100px;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	font-size: 10px;
+	font-family: 'Montserrat', cursive;
+	color: white;
+	width: 700px;
+}
+
+#reduit {
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	font-size: 10px;
+	font-family: 'Montserrat', cursive;
+	color: white;
+	width: 700px;
+}
+
+#gratuit {
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	font-size: 10px;
+	font-family: 'Montserrat', cursive;
+	color: white;
+	width: 700px;
+	text-align: justify;
+}
+
+#groupes {
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	font-size: 10px;
+	font-family: 'Montserrat', cursive;
+	color: white;
+	width: 700px;
+}
+
+.texte1 {
+	padding-left: 20px;
+}
+
+
+.texte2 {
+	padding-left: 20px;
+}
+
+
+.texte3 {
+	padding-left: 20px;
+}
+
+
+.texte4 {
+	padding-left: 20px;
+}
