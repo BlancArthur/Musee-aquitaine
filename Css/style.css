@@ -17,7 +17,7 @@ body {
 
 /*------------------------------------------------------ BARRE DE NAVIGATION ------------------------------------------------*/
 .logo_musée {
-	position: absolute;
+	position: fixed;
 	padding-left: 15px;
 	padding-top: 5px;
 	height:90px;
@@ -160,13 +160,72 @@ h1 {
 /*------------------------------------------------------ ANIMATION ROSACE ------------------------------------------------*/
 .flottant {
 	opacity: 40%;
-	position: fixed;
 	width: 550px;
 	height: 45%;
+	position: fixed;
+  	top: 1px;
+  	right: auto;
 
 	transform: translate(-50%, 36%);
 }
 
 #reload {
 	width:100%;
+}
+
+
+
+/* --------------------------------------------- EXPOSITION ----------------------------------------------- */
+
+.CadreTitre h2 {		 
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #FFFFFF;
+	font-family: 'Cormorant Garamond', sans-serif;
+	font-size: 35px;
+}
+
+/* Infos ecriture, peut etre pas nécéssaire...*/
+
+.prehistoire {
+	color: #FFFFFF;
+	font-family: 'Cormorant Garamond', sans-serif;
+	font-size: 15px;
+	padding-top: 250px;
+}
+
+.lepoquegalloromaine {
+	color: #FFFFFF;
+	font-family: 'Cormorant Garamond', sans-serif;
+	font-size: 15px;
+	padding-top: 50px;
+}
+
+.periodemedievalemorderne {
+	color: #FFFFFF;
+	font-family: 'Cormorant Garamond', sans-serif;
+	font-size: 15px;
+	padding-top: 50px;
+}
+
+.commerceatlantiqueetesclavage {
+	color: #FFFFFF;
+	font-family: 'Cormorant Garamond', sans-serif;
+	font-size: 15px;
+	padding-top: 50px;
+}
+
+.bordeauxportedumonde {
+	color: #FFFFFF;
+	font-family: 'Cormorant Garamond', sans-serif;
+	font-size: 15px;
+	padding-top: 50px;
+}
+
+.bordeauxdenosjours {
+	color: #FFFFFF;
+	font-family: 'Cormorant Garamond', sans-serif;
+	font-size: 15px;
+	padding-top: 50px;
 }
